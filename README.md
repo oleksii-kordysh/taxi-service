@@ -16,25 +16,19 @@ This is a simple program that demonstrates standard web service server operation
 - Tomcat 9.0.64
 - JSTL 1.2
 
-## :building_construction:Architecture
-
-- Data presentation level
-- Application level
-- Data management level
-
 ## :classical_building:Data presentation level contains several JSP forms: 
 
 - **Registration**, which allows you to register in the service as a driver
 - **Authentication**, which allows you to login in the service
 - **Display My Current Cars**, which shows cars, which are used by authenticated driver
 - **Display All Drivers**, which shows all registered drivers
-- **Diplay All Cars**, which shows all registered cars
+- **Display All Cars**, which shows all registered cars
 - **Display All Manufacturers**, which shows all registered car manufacturers
 - **Create new Car**, which allows you to register new car in the service
 - **Create new Manufacturer**, which allows you to register new car manufacturer in the service
 - **Add Driver to Car**, which allows you to designate registered car for registered driver
 
-## :ladder:Application level contain 3-layer design itself: 
+## :ladder:Application level contain 3-layer design: 
 
 - **Controllers**: communicators between JSP and Services via HTTP
 - **Services**: business logic operations
